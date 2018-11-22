@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MorphDialog.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/dialog_background_scrim</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="morph_dialog_background_color">?android:colorBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="MorphDialog.Base.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/dialog_background_scrim</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="morph_dialog_background_color">?android:colorBackground</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <color name="dialog_background_scrim">#00323232</color>
+</resources>
